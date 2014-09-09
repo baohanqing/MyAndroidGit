@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/change_num"
+        android:title="修改该黑名单号码"
+        android:icon="@drawable/ic_launcher"/>
+    
+    <item android:id="@+id/delete_num"
+        android:title="删除该黑名单号码"
+        android:icon="@drawable/ic_launcher"/>
+
+</menu>

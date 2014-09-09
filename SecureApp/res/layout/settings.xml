@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- 该界面用来启动，程序锁服务的 -->
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#cccccc">
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="程序锁设置"/>
+        
+    </LinearLayout>
+    
+    <Button android:id="@+id/but_start_lock_service"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开启程序锁"/>
+    
+    <Button android:id="@+id/but_stop_lock_service"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭程序锁"/>
+    
+    <TextView android:id="@+id/tv_lock_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

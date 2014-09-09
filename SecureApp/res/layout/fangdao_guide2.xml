@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fangdao2_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fangdao_guide2_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <!-- 手机防盗的引导页，第二页 -->
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fangdao_guide2"
+        android:layout_marginTop="60dip"/>
+    
+
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:text="@string/fangdao_guider2_1"/>
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:text="@string/fangdao_guider2_2"/>
+        
+
+        <Button android:id="@+id/BingBut" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dip"
+            android:background="@drawable/fangdao_but_select"
+            android:textSize="13sp"/>
+
+    
+        <TextView android:id="@+id/isBinded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginTop="10dip"/>
+        
+    <!--  
+	    <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="105dip"
+	        android:layout_gravity="center_horizontal"
+	        android:orientation="horizontal">
+	        
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/guide_point_no"/>
+	       
+	        <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            	            android:layout_marginLeft="3dip"
+	            android:src="@drawable/guide_point_yes"/>
+	       
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="3dip"
+	            android:src="@drawable/guide_point_no"/>
+	       
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="3dip"
+	            android:src="@drawable/guide_point_no"/>
+	        
+	        
+	    </LinearLayout> 
+	-->
+	
+	
+</LinearLayout>

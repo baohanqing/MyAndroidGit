@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dip"
+    android:layout_height="80dip"
+    android:id="@+id/ll_show_location"
+    android:orientation="vertical" >
+    
+    <TextView android:id="@+id/tv_location"
+        android:layout_width="80dip"
+        android:layout_height="80dip"/>
+
+</LinearLayout>

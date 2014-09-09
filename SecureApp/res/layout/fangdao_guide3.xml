@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fangdao3_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fangdao_guide3_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <!-- 手机防盗的引导页，第三页 -->
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fangdao_guide3"
+        android:layout_marginTop="60dip"/>
+    
+
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:text="@string/fangdao_guider3_1"/>
+        
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:orientation="horizontal">
+            
+            <EditText android:id="@+id/contracts_text"
+                android:textSize="15sp"
+            	android:layout_width="170dip"
+
+            android:layout_height="wrap_content"
+            android:background="@drawable/fangdao_edit_bg"/>
+            
+            <Button android:id="@+id/search_contracts_but"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="3dip"
+                 android:textSize="15sp"
+                 android:background="@drawable/chazhao_but_select"
+                 android:text="查找"/>
+            
+        </LinearLayout>
+        
+        
+
+    
+        <TextView android:id="@+id/isBinded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginTop="10dip"/>
+        
+    <!--  
+	    <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="105dip"
+	        android:layout_gravity="center_horizontal"
+	        android:orientation="horizontal">
+	        
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/guide_point_no"/>
+	       
+	        <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            	            android:layout_marginLeft="3dip"
+	            android:src="@drawable/guide_point_yes"/>
+	       
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="3dip"
+	            android:src="@drawable/guide_point_no"/>
+	       
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="3dip"
+	            android:src="@drawable/guide_point_no"/>
+	        
+	        
+	    </LinearLayout> 
+	-->
+	
+	
+</LinearLayout>

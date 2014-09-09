@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#cccccc">
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高级工具"/>
+        
+    </LinearLayout>
+    
+    <TextView android:id="@+id/tv_location_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dip"
+        android:layout_marginLeft="4dip"
+        android:textSize="20sp"
+        android:text="手机号码归属地查询"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginBottom="8dip"
+        android:background="#aabc04e5"/>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:orientation="horizontal">
+        
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="设置手机来电显示服务"/>
+            
+            <TextView android:id="@+id/tv_service_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#CC3333"
+            android:text="手机来电服务未开启"/>
+            
+            
+        </LinearLayout>
+        
+        
+        
+        <CheckBox android:id="@+id/cb_is_selected" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:checked="false"/>
+        
+    </LinearLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginBottom="8dip"
+        android:background="#aabc04e5"/>
+    
+    <TextView android:id="@+id/tv_location_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="4dip"
+        android:text="归属地显示风格"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginBottom="8dip"
+        android:background="#aabc04e5"/>
+    
+    <TextView android:id="@+id/tv_location_postion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:textSize="20sp"
+        android:text="归属地显示位置"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginBottom="8dip"
+        android:background="#aabc04e5"/>
+    
+    <TextView android:id="@+id/tv_balck_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:textSize="20sp"
+        android:text="黑名单管理"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginBottom="8dip"
+        android:background="#aabc04e5"/>
+    
+    
+    <TextView android:id="@+id/tv_msg_backup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:textSize="20sp"
+        android:text="短信备份"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginBottom="8dip"
+        android:background="#aabc04e5"/>
+    
+    <TextView android:id="@+id/tv_msg_recover"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:textSize="20sp"
+        android:text="短信还原"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginBottom="8dip"
+        android:background="#aabc04e5"/>
+    
+    <TextView android:id="@+id/tv_app_lock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:textSize="20sp"
+        android:text="程序锁"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginBottom="8dip"
+        android:background="#aabc04e5"/>
+    
+
+</LinearLayout>
