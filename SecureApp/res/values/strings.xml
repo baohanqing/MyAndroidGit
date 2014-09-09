@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">手机安全管家</string>
+	<string name="ok">确认</string>
+	<string name="cancle">取消</string>
+	
+	<string name="setLockPwd">设置密码</string>
+	<string name="setLockPwdHint">请输入手机防盗密码</string>
+	<string name="setLockPwdConfirm">请再次输入密码</string>
+	<string name="lockLogin">手机防盗登陆</string>
+	<string name="inputLoginPwd">请输入登陆密码</string>
+	
+	<string name="fangdao_guider1_1">1.SIM卡变更报警</string>
+	<string name="fangdao_guider1_2">2.GPS追踪</string>
+	<string name="fangdao_guider1_3">3.远程数据销毁</string>
+	<string name="fangdao_guider1_4">4.远程锁屏</string>
+	
+	<string name="fangdao_guider2_1">绑定SIM卡之后</string>
+	<string name="fangdao_guider2_2">下次更换SIM卡时会发送短信通知</string>
+	
+	<string name="fangdao_guider3_1">更换SIM卡之后，会发送短信到该号码</string>
+	
+	<string name="fangdao_guider4_1">防盗开启成功</string>
+	
+	<!-- 数据库存放的地方 -->
+	<string name="serverdb">http://10.18.33.62:8080/SecureApp/number_location.db</string>
+	
+	<!-- 正在加载中 -->
+	<string name="isLoading">正在加载中</string>
+	
+</resources>

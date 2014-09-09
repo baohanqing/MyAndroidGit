@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    <!-- 上边的是指定画一个矩形 -->
+    
+    <!-- 画笔的定义，大小和颜色 -->
+    <stroke 
+        android:width="1dip"
+        android:color="#cccccc"/>
+    
+    <!-- 定义圆角矩形的半径 -->
+    <corners android:radius="12dip"/>
+    
+    <solid android:color="#ffffff"/>
+
+    <padding android:bottom="2dip"
+        android:left="8dip"
+        android:right="8dip"
+        android:top="2dip"/>
+    
+</shape>

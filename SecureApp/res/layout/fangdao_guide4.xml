@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fangdao3_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fangdao_guide4_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <!-- 手机防盗的引导页，第四页 -->
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fangdao_guide4"
+        android:layout_marginTop="60dip"/>
+    
+    
+    <TextView android:id="@+id/is_set_locked" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:text="@string/fangdao_guider4_1"/>
+        
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:orientation="horizontal">
+        
+
+        <Button android:id="@+id/finish_but" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fangdao_but_select"
+            android:textSize="13sp"
+            android:text="立即体验"/>
+        
+         <TextView android:id="@+id/cancle_fangdao" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:textColor="#6666CC"
+            android:textSize="13sp"
+            android:text="取消"/>
+        
+        
+
+      </LinearLayout>  
+
+        
+    <!--  
+	    <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="105dip"
+	        android:layout_gravity="center_horizontal"
+	        android:orientation="horizontal">
+	        
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/guide_point_no"/>
+	       
+	        <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            	            android:layout_marginLeft="3dip"
+	            android:src="@drawable/guide_point_yes"/>
+	       
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="3dip"
+	            android:src="@drawable/guide_point_no"/>
+	       
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="3dip"
+	            android:src="@drawable/guide_point_no"/>
+	        
+	        
+	    </LinearLayout> 
+	-->
+	
+	
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 软件更新的xml地址-->
+    <string name="updateServerUrl">http://10.18.33.62:8080/SecureApp/update.xml</string>
+</resources>

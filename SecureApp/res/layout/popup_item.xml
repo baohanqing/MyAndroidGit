@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_popup_item"
+    android:layout_width="230dip"
+    android:layout_height="40dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+    <!-- 应用管理当中的弹出菜单的布局，一共有卸载、允许、分享三个部分 -->
+    <LinearLayout android:id="@+id/ll_uninstall" 
+        android:layout_width="45dip"
+        android:layout_height="40dip"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        
+        <ImageView android:layout_width="15dip"
+            android:layout_height="25dip"
+            android:src="@drawable/ic_launcher"/>
+        
+        <TextView android:layout_width="wrap_content"
+            android:textSize="10sp"
+            android:layout_height="wrap_content"
+            android:text="卸载"/>
+        
+        
+    </LinearLayout>
+    
+    <View android:layout_width="1dip"
+        android:layout_height="40dip"
+        android:background="#ff00ff66"/>
+    
+    <LinearLayout android:id="@+id/ll_run" 
+        android:layout_width="45dip"
+        android:layout_height="40dip"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        
+        <ImageView android:layout_width="15dip"
+            android:layout_height="25dip"
+            android:src="@drawable/ic_launcher"/>
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="运行"/>
+        
+        
+    </LinearLayout>
+    
+       <View android:layout_width="1dip"
+        android:layout_height="40dip"
+        android:background="#ff00ff66"/>
+    
+    <LinearLayout android:id="@+id/ll_share" 
+        android:layout_width="45dip"
+        android:layout_height="40dip"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        
+        <ImageView android:layout_width="15dip"
+            android:layout_height="25dip"
+            android:src="@drawable/ic_launcher"/>
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="分享"/>
+        
+        
+    </LinearLayout>
+    
+</LinearLayout>
